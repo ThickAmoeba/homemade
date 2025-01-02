@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background-image: url(singularity.jpg);
+height: 850px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+head, body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-image: url(smile.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    color: black;
+    font-size: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
