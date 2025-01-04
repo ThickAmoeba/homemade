@@ -20,7 +20,7 @@ head, body{
 .container{
     height: 200px;
     width: 200px;
-    background-image: url(smile.jpg); 
+    background-image: url(.img/smile.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
