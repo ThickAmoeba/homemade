@@ -15,18 +15,14 @@ body {
     flex: 1; /* Allow the container to take up remaining space */
 }
 
-.maincontent {
-    flex: 1; /* Main content takes available space */
-}
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
     background-color: white;
     padding-bottom: 20px;
     border-bottom: 5px solid #fae714;
+    height: 125px;
 }
 
 .header-links {
@@ -51,13 +47,35 @@ a.carmlogo {
     font-weight: 900;
     border-radius: 50%;
     padding: 30px 60px;
-    margin: 0;
+    margin: 10px;
+}
+
+div.imageline {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .imageline p{
+    background-color: #cc0a24;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.imgcont{
+    display: flex;
+    align-content: center;
+    margin: 20px 0 30px 0;
+}
+
+img.imgline{
+    max-height: 500px;
+    max-width: 500px;
 }
 
 div.footer {
@@ -69,9 +87,10 @@ div.footer {
 }
 
 div.logoids {
+    display: flex;
+    flex-direction: column;
     align-self: center;
-    justify-content: right;
-    margin: 10px;
+    gap: 10px;
 }
 
 .logoloids {
@@ -79,15 +98,14 @@ div.logoids {
     gap: 10px;
 }
 
-.logoids p {
+.logoids div p {
     color: white;
     background-color: #cc0a24;
     width: 800px;
     text-wrap: wrap;
     margin-right: 100px;
     padding: 10px;
-    border-radius: 10px;
-    display: flex;
+    border-radius: 10px;/
 }
 
 .circle {
@@ -104,6 +122,7 @@ img.lithuania {
     max-height: 40px;
     max-width: 90px;
     object-fit: contain;
+    margin-top: 10px;
 }
 
 .leftlinks p,
